@@ -1,19 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
-
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4{
+    color: black;
+}
 body{
     font-family: 'Roboto',sans-serif;
+    color: #333;
+    font-size: 24px;
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
 }
-h1 { font-size: 64px;}
-h1, strong {font-weight: 700;}
+h1{ 
+    font-size: 64px;
+}
+h1, strong{
+    font-weight: 700;
+}
 
+nav h1,
+footer h1 {
+    font-family: 'Coiny', cursive;
 
+}
 
-h1 strong {font-family: 'Coiny', cursive;
-font-size: 117.33px;
+nav h1 {
+    margin-right: auto;
+}
+
+nav a,
+footer a {
+    margin-left: 20px;
+    color: #7A7A7A;
+    text-decoration: none;
+    
+}
+
+footer,main,header,aside{
+    width: 100%;
+}
+
+h1 strong {
+    font-family: 'Coiny', cursive;
+    font-size: 117.33px;
 }
 
 
-h2 {font-weight: 400; font-size: 26.66px;}
+h2{
+    font-weight: 400; font-size: 26.66px;
+}
 
-h3 { font-weight: 900;}
+h3{ 
+    font-weight: 900;
+}
+.section-contacto--h4{
+    margin: 0;
+    font-size: 51px;
+    color: white;
+    background-color: black;
+    line-height: 100px;
+    padding: 10px;
+}
+main{
+    font-size: 21px;
+}
+section{
+    width: 45%;
+}
+.Header-subtittle{
+    background-color: #FCEE21;
+    width: 644px ;
+    padding: 0 15px;
+    font-size: 20px;
+}
+.Main-section__subtitles{
+    background-color: #FCEE21;
+    padding: 0 6px;
+    width: 354px;
+    font-size: 20px;
+}
+.Main-section__li{
+    background-color: #FCEE21;
+}
+.Main-section__P-color{
+    background-color: #FCEE21;
+}
+footer{
+    background-color: #FCEE21;
+    height: 100px;
+    padding: 10px;
+}
+
+.header-section__img {
+    width: 70%;
+    margin-left: 30%;
+}
+.main-servicios__img{
+    width: 70%;
+    height: 100%;
+    margin-left: 30% ;
+}
+.aside-div__title{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    padding: 0;
+}

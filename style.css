@@ -6,6 +6,11 @@
 h1,h2,h3,h4{
     color: black;
 }
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
 body{
     font-family: 'Roboto',sans-serif;
     color: #333;
@@ -37,6 +42,19 @@ footer a {
     text-decoration: none;
     
 }
+nav a {
+    text-transform: capitalize;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+}
+p{
+    border: none;
+}
+
 
 footer,main,header,aside{
     width: 100%;
@@ -88,9 +106,15 @@ section{
     background-color: #FCEE21;
 }
 footer{
+    display: flex;
+    align-items: center;
     background-color: #FCEE21;
     height: 100px;
     padding: 10px;
+}
+footer h1{
+    font-size: 33px;
+    padding: 0 120px 0 90px;
 }
 
 .header-section__img {
@@ -107,4 +131,25 @@ footer{
     font-weight: 700;
     font-size: 34px;
     padding: 0;
+}
+aside a{
+    text-decoration: none;
+}
+.nav-menu{
+    display: flex;
+    padding-right: 5%;
+    
+    
+    gap: 80px;
+}
+.ol{
+    font-size: 2rem;
+    font-weight: 400;
+    list-style-position: inside;
+}
+.contacto-form form textarea{
+    width: 535px;
+    height: 175px;
+    field-sizing: fixed;
+    resize: none;
 }

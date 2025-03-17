@@ -9,10 +9,10 @@
 <body>
     <nav>
         <h1>wwwapas</h1>
-        <ul>
-            <a href="#">Inicio</a>
+        <ul class="nav-menu">
             <a href="#Servicios">Servicios</a>
             <a href="#Contacto">Contacto</a>
+            <a href="#">Login</a>
         </ul>
     </nav>
     <header class="HEADER">
@@ -54,9 +54,23 @@
                     <li class="Main-section__li">¡Empezamos a comunicar!</li>
                 </ol>
             </section>
+        </div>
+        <div id="Contacto">
             <section>
                 <h4 class="section-contacto--h4"><strong>¿Querés que nos contactemos con vos?</strong></h4>
                 <p class="Main-section__P-color">Envianos tu consulta >></p>
+            </section>
+            <section class="contacto-form">
+                <form action="codigo.php">
+                    <label>Nombre <span>*</span></label>
+                    <input type="text" required placeholder="Ingrese su nombre">
+                    <label >Email<span>*</span></label>
+                    <input type="email" required placeholder="Ingrese su email">
+                    <label >Mensaje <span>*</span></label>
+                    <textarea name="text" cols="32" rows="10"></textarea>
+                    <button>Enviar consulta</button>
+                    <input type="reset" value="Borrar">
+                </form>
             </section>
         </div>
     </main>
@@ -65,21 +79,24 @@
             <h4>Redes</h4>
             <h4>wwwapas</h4>
         </div>
-        
-        <a href="http://www.instagram.com">
-            <img src="/assets/img/instagram-icon.png" alt="instagram"></a>
-
-        <a href="http://www.instagram.com"><img src="/assets/img/dribbble-icon.png" alt="dribble"> </a>
-
-        <a href="http://www.linkedin.com"><img src="/assets/img/linkedin-icon.png" alt="linkedIn"> </a>
-
-        <a href="http://www.facebook.com">
-
-            <img src="/assets/img/facebook-icon.png" alt="facebook"> </a>
+        <div>
+            <a href="http://www.instagram.com">
+                <img src="/assets/img/instagram-icon.png" alt="instagram"></a>
+        </div>
+        <div>
+            <a   a href="http://www.instagram.com"><img src="/assets/img/dribbble-icon.png" alt="dribble"> </a>
+        </div>
+        <div>
+            <a href="http://www.linkedin.com"><img src="/assets/img/linkedin-icon.png" alt="linkedIn"> </a>
+        </div>
+        <div>
+            <a href="http://www.facebook.com">
+                <img src="/assets/img/facebook-icon.png" alt="facebook"> </a>
+        </div>
     </aside>
     <footer>
         <h1>wwwapas</h1>
-        <a href="mailto: wwwapas_sm@gmail.com">wwapas_sm@gmail.co</a>
+        <a href="mailto: wwwapas_sm@gmail.com?subject=Presupuesto">wwapas_sm@gmail.com</a>
     </footer>
 </body>
 </html>
